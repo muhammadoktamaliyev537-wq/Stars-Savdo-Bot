@@ -71,7 +71,7 @@ if __name__ == "__main__":
     bot.remove_webhook()
     RENDER_URL = "https://stars-savdo-bot.onrender.com"
     # BOT_TOKEN o'rniga to'g'ridan-to'g'ri tokeningizni yozib ketamiz:
-    bot.set_webhook(url=RENDER_URL + '/8920655270:AAHLdQgXfLXXCmm5t28jab_KtMVbnU_upG0')
+    bot.set_webhook(url=RENDER_URL + '8608266628:AAFFS4RzCRMb_X7fN4qlgHAIUJemqvMmy18')
     
     port = int(os.environ.get("PORT", 5000))
     app.run(host="0.0.0.0", port=port)
