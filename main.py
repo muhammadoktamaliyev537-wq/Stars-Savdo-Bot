@@ -66,8 +66,12 @@ def handle_messages(message):
 import threading
 def run_bot():
     bot.infinity_polling()
-
 if __name__ == "__main__":
-    threading.Thread(target=run_bot).start()
+    import os
+    bot.remove_webhook()
+    RENDER_URL = "https://stars-savdo-bot.onrender.com"
+    # BOT_TOKEN o'rniga to'g'ridan-to'g'ri tokeningizni yozib ketamiz:
+    bot.set_webhook(url=RENDER_URL + '/8920655270:AAHLdQgXfLXXCmm5t28jab_KtMVbnU_upG0')
+    
     port = int(os.environ.get("PORT", 5000))
     app.run(host="0.0.0.0", port=port)
