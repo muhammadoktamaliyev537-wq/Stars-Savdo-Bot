@@ -8,7 +8,7 @@ import threading
 app = Flask(__name__)
 
 # Bot sozlamalari
-TOKEN = '8608266628:AAGY3U91C4L3F0cbPKqv3bf3KfXZgT3ZEXM'
+TOKEN = '8608266628:AAGfyMpC4w90S9GHnNsDpXULff20tlcLBuc'
 bot = telebot.TeleBot(TOKEN)
 
 # 🛠 TELEGRAM ID RAQAMINGIZ
@@ -144,3 +144,4 @@ if __name__ == "__main__":
     threading.Thread(target=run_bot).start()
     port = int(os.environ.get("PORT", 5000))
     app.run(host="0.0.0.0", port=port)
+    
