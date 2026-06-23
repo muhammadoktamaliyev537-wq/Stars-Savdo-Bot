@@ -8,7 +8,7 @@ import threading
 app = Flask(__name__)
 
 # Bot sozlamalari
-TOKEN = '8608266628:AAFFS4RzCRMb_X7fN4qlgHAIUJemqvMmy18'
+TOKEN = '8608266628:AAGY3U91C4L3F0cbPKqv3bf3KfXZgT3ZEXM'
 bot = telebot.TeleBot(TOKEN)
 
 # 🛠 TELEGRAM ID RAQAMINGIZ
